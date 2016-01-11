@@ -7,6 +7,10 @@ class UrlMappings {
             }
         }
 
+		"/api/authors"(resources: 'author')
+		"/api/books"(resources: 'book')
+		"/api/genres"(resources: 'genre')
+
         "/"(view:"/index")
         "500"(view:'/error')
 	}

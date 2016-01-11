@@ -1,3 +1,5 @@
-# rest_suggestions
+# RESTful Controllers / Domain Class Marshalling
+-----
 
-1) 
+So this is a super simple example, and much of it was taken directly from the Grails documentation. 
+
