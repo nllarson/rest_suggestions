@@ -15,7 +15,6 @@ So this is a super simple example, and much of it was taken directly from the Gr
 *  The 3 controllers in this app are all setup to handle the different domains.  You can see what roles are required to access the contorllers by the @Secured annotation at the top.  (Note Genre requires ROLE_ADMIN)
 *  The URLMapping.groovy file holds the mapped URLs for the api.
 *  The object marshallers are registered in Bootstrap.groovy  There are examples in the REST Web Services documentation link about putting these in their own classes and / or giving them different config names for different ways of rendering the objects.
-*  Notice how simple the controllers are here.  They should usually stay close to this simple.  Any logic checks specific to the creation / update / delete should be encapsulated in a service class, which would be injected into the controller.  This will allow you to wrap transactions where needed easily.  If your service throws an exception, work will be rolled back, and you can catch that error in your controller to render a custom response / status to the user if you would like.
 
 
 
