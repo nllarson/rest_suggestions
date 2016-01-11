@@ -17,4 +17,15 @@ So this is a super simple example, and much of it was taken directly from the Gr
 *  The object marshallers are registered in Bootstrap.groovy  There are examples in the REST Web Services documentation link about putting these in their own classes and / or giving them different config names for different ways of rendering the objects.
 
 
+----
+Usage Directions:
+1) Fork and clone the project.
+2) Change into cloned repo folder
+3) ```grails run-app```
+4) Aquire authorization token
+ * POST to http://localhost:8080/rest/api/login
+ * JSON body of ```{"username":"admin","password":"password"}```
+5) Hit any of the endpoints, ie (http://localhost:8080/rest/api/genres)
+
+
 
