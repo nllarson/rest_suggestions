@@ -26,6 +26,7 @@ So this is a super simple example, and much of it was taken directly from the Gr
  *  POST to http://localhost:8080/rest/api/login
  *  JSON body of ```{"username":"admin","password":"password"}```
 *  Hit any of the endpoints, ie (http://localhost:8080/rest/api/genres)
+ *  _NOTE:_ all request must send the aquired auth token in the ```X-Auth-Token``` header.   
 
 
 
